@@ -1,0 +1,115 @@
+.frontshou,.regesergift,.locationIcon,.customertitle,.nLi .telephone,.search_icon,.shop_cart .cart_icon,.logo_box3,.menu_title i{
+	background-image: url(../icon/iconz.png);
+	background-repeat: no-repeat;
+}
+
+.frontshou {
+	_width: 12px;
+	_height: 11px;
+	_overflow: hidden;
+	_margin-top: -20px;
+	padding-bottom: 4px;	
+	vertical-align:middle;
+	background-position:-13px -15px;
+	height:11px;
+	width:12px;
+	display: inline-block;
+}
+
+.locationIcon {
+	background-position:-38px -13px;
+	height: 16px;
+	width: 13px;
+	left: 6px;
+	bottom: 6px;
+	vertical-align: middle;
+	_width: 10px;
+	_height: 16px;
+	_overflow: hidden;
+	_margin-top: -20px; 
+	display: inline-block;
+}
+
+.regesergift {
+	padding-bottom: 3px;	
+	vertical-align:middle;
+	background-position:-56px -14px;
+	height:15px;
+	width:17px;
+	display: inline-block;
+}
+
+.customertitle{
+	vertical-align:middle;
+	background-position:-109px -14px;
+	height:15px;
+	width:10px;
+	display: inline-block;
+	margin-left:10px;
+}
+
+.nLi .telephone{
+	background-position:-85px -11px;
+	width:16px;
+	height:17px;
+	display: inline-block;
+	margin-bottom: -3px;
+}
+
+.search_icon{
+	background-position:-141px -5px;width:23px;height:30px;
+	display: block;
+    position: absolute;
+    top: 36px;
+    left: 12px;
+    z-index: 1;
+}
+
+.shop_cart .cart_icon{
+	background-position:-164px -5px;
+	display: block;
+	height: 26px;
+	width: 20px;
+	float: left;
+}
+
+.logo_box3{
+	background-position: -10px -38px;
+	width: 90px;
+    height: 90px;
+    float: right;
+}
+
+.menu_title i{
+	background-position: -187px 0px;
+	width: 25px;
+	height:27px;
+	display: inline-block;
+}
+
+.white {
+	background-image: url(../icon/division.png);
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	vertical-align:middle;
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+}
+.orange{
+	background-image: url(../icon/division.png);
+	background-repeat: no-repeat;
+	vertical-align:middle;
+	height: 22px;
+	width: 22px;
+}
+
+
+
+
+
+
+
+
+
+
