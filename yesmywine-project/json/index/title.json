@@ -1,0 +1,17 @@
+{
+"myAccountInformation":
+	[
+		{"title":"我的订单","href":"http://www.yesmywine.com"},
+		{"title":"我的存酒库","href":"http://www.yesmywine.com"},
+		{"title":"我的优惠券","href":"http://www.yesmywine.com"},
+		{"title":"我的收藏夹","href":"http://www.yesmywine.com"}
+	],
+"adverRight":
+	[
+		{"href":"http://www.yesmywine.com","title1":"人气抢购","title2":"百元超值特价"},
+		{"href":"http://www.yesmywine.com","title1":"整箱特惠","title2":"口粮囤酒必选"},
+		{"href":"http://www.yesmywine.com","title1":"名庄特卖","title2":"限量知名酒庄"},
+		{"href":"http://www.yesmywine.com","title1":"精品闪购","title2":"优质品牌精选"},
+		{"href":"http://www.yesmywine.com","title1":"白酒/陈年老酒","title2":"正品保证"}
+	]
+}

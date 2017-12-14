@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="shortcut icon" type="text/css" href="../icon/1.ico" />
+		<link rel='stylesheet' type="text/css" href='../css/common.css' />
+		<link rel='stylesheet' type="text/css" href='../css/detailTitle.css' />
+		<link rel='stylesheet' type="text/css" href='../css/detailLeftMenu.css' />
+		<link rel='stylesheet' type="text/css" href='../css/index-foot.css' />
+		<link rel='stylesheet' type="text/css" href='../css/right-side.css' />
+		<link rel='stylesheet' type="text/css" href='../css/detailMain.css' />
+		<script type="text/javascript" src='../libray/jquery-1.11.3.js'></script>
+		<script type="text/javascript" src='../libray/jquery.cookie.js'></script>
+	</head>
+	<body style="height: 2000px;">
+		<!-- 头部文档 -->
+		<div class="header">
+			<div class="head-title">
+				<div class="head-title-con">
+					<!-- 登录及注册 -->
+					<ul class="title-left">
+						<li><span class="member-count">9941566</span>位会员的选择</li>
+						<li class="login">
+							<a href="http://127.0.0.1:80/yesmywine-project/client/login.html" target="_blank">登录</a>
+						</li>
+						<li class="register">
+							<a href="http://127.0.0.1:80/yesmywine-project/client/register.html" target="_blank">注册</a>
+						</li>
+					</ul>
+					<!-- 信息栏选项 -->
+					<ul class="infor-center">
+						<li>
+							<a href="javascript:;">会员俱乐部</a>
+						</li>
+						<li class="sign-in">
+							<a href="javascript:;">签到</a>
+						</li>
+						<!-- 我的账户信息列表 -->
+						<li class="my-account" id="my-account">
+							<a class="my-account-a" href="javascript:;">我的账户</a>
+							<ul class="my-account-list">
+								<span>▲</span>
+								<li>
+									<a href="javascript:;">我的订单</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的存酒库</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的优惠券</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的收藏夹</a>
+								</li>
+							</ul>
+						</li>
+						<!-- 手机版信息 -->
+						<li class="phone-ver" id="phone-ver">
+							<a class="phone-ver-a" href="javascript:;">手机版</a>
+							<div class="phone-ver-list">
+								<span style="color: #fff; font-size: 16px; position: absolute; top: -10px; left: 33px">▲</span>
+								<p class="app-first">APP首单<b>满100得100</b></p>
+								<div class="app-content">
+									<img class="red-code" src="http://127.0.0.1:80/yesmywine-project/icon/red-code.png" />
+									<ul class="app-content-list">
+										<li>
+											<span>下载也买酒客户端</span>
+										</li>
+										<li class="ios-img">
+											<a href="javascript:;">
+												<img src="http://127.0.0.1:80/yesmywine-project/icon/ios.png" />
+											</a>
+										</li>
+										<li class="android-img">
+											<a href="javascript:;">
+												<img src="http://127.0.0.1:80/yesmywine-project/icon/android.png" />
+											</a>
+										</li>
+									</ul>
+								</div>
+								<p class="more-fav">
+									<a href="javascript:;">了解更多客户端优惠!</a>
+								</p>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;">红酒交易中心</a>
+						</li>
+						<!-- 也买酒服务信息 -->
+						<li class="yesmy-serve" id="yesmy-serve">
+							<a class="yesmy-serve-a" href="javascript:;">也买服务</a>
+							<div class="yesmy-serve-list">
+								<span style="color: #fff; font-size: 16px; position: absolute; top: -10px; left: 29px">▲</span>
+								<p>
+									<a href="javascript:;">品酒会</a> |
+									<a href="javascript:;">葡萄酒培训</a>
+								</p>
+								<p>
+									<a href="javascript:;">存酒库</a> |
+									<a href="javascript:;">礼品卡</a>
+								</p>
+								<p>
+									<a href="javascript:;">积分商城</a> |
+									<a href="javascript:;">I酒窖</a>
+								</p>
+								<p>
+									<a href="javascript:;">《葡萄酒爱好者》 </a>
+								</p>
+								<p>
+									<a href="javascript:;"> 客服：4008208060 </a>
+								</p>
+							</div>
+						</li>
+						<li class="set-undis">
+							<a href="javascript:;">设置勿扰</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="head-find">
+				<div class="head-find-left">
+					<a href="http://127.0.0.1:80/yesmywine-project/client/index.html" target="_blank">
+						<div class="left-logo">
+							也买酒
+						</div>
+					</a>
+					<div class="right-logo">
+					</div>
+				</div>
+				<div class="head-find-right">
+					<div class="search-box">
+						<form class="search-project" id="search-project">
+							<input class="search-content" type="text" placeholder="输入您要查找的内容" />
+							<span class="btn" id="btn">搜索</span>
+						</form>
+						<p>
+							<a href="javascript:;">新年礼盒</a>
+							<a href="javascript:;">薄若莱2016年新酒</a>
+							<a href="javascript:;">名庄酒</a>
+							<a href="javascript:;">特色陈年老酒</a>
+							<a href="javascript:;">也买酒学院</a>
+						</p>
+					</div>
+					<div class="shopping-car">
+						<div>
+							<a href="http://127.0.0.1:80/yesmywine-project/client/shopping-car.html" class="shopping-car-show">&nbsp;购物车</a>
+						</div>
+						<div class="shopping-car-hide" id="shopping-car-hide">
+							<p>您的购物车内暂时没有商品，去
+								<a href="http://127.0.0.1:80/yesmywine-project/client/index.html" target="_blank">首页</a>挑选</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 头部标题列表 -->
+			<div class="header-nav">
+				<ul class="header-nav-list">
+					<li>
+						<a href="javascript:;">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">超值抢购</a>
+					</li>
+					<li>
+						<a href="javascript:;">精品闪购</a>
+					</li>
+					<li>
+						<a href="javascript:;">名庄特卖</a>
+					</li>
+					<li>
+						<a href="javascript:;">香港免税</a>
+					</li>
+					<li class="newpic">
+						<a href="javascript:;">老酒馆</a>
+						<p></p>
+					</li>
+					<li>
+						<a href="javascript:;">企业采购</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 选酒中心 -->
+			<div class="check-wine-center">
+				<h3><a href = "javascript:;">选酒中心</a><p></p></h3>
+				<!-- 选酒中心酒的分类 -->
+				<div class="wine-group">
+					 <ul class="item-show">
+						<!-- 商品列表页加上.active -->
+						<li class="item-show-list">
+							<h4><a>葡萄酒</a></h4>
+							<p>
+								<a href="javascript:;">法国</a>
+								<a>西班牙</a>
+								<a>意大利</a>
+								<a>智利</a>
+								<a>干红</a>
+								<a>桃红</a>
+								<a>甜白</a>
+								<a>气泡</a>
+								<a>香槟</a>
+								<a>加强葡萄酒</a>
+								<a>列级名庄</a>
+							</p>
+						</li>
+						<li class="item-show-list">
+							<h4><a>一件选酒</a></h4>
+							<p>
+								<a>礼盒</a>
+								<a>西班牙</a>
+								<a>意大利</a>
+								<a>智利</a>
+								<a>干红</a>
+								<a>桃红</a>
+								<a>甜白</a>
+								<a>气泡</a>
+								<a>香槟</a>
+								<a>加强葡萄酒</a>
+								<a>列级名庄</a>
+							</p>
+						</li>
+						<li class="item-show-list">
+							<h4><a>洋酒烈酒</a></h4>
+							<p>
+								<a>礼盒</a>
+								<a>西班牙</a>
+								<a>意大利</a>
+								<a>智利</a>
+								<a>干红</a>
+								<a>桃红</a>
+								<a>甜白</a>
+								<a>气泡</a>
+								<a>香槟</a>
+								<a>加强葡萄酒</a>
+								<a>列级名庄</a>
+							</p>
+						</li>
+						<li class="item-show-list">
+							<h4><a>中国白酒</a></h4>
+							<p>
+								<a>礼盒</a>
+								<a>西班牙</a>
+								<a>意大利</a>
+								<a>智利</a>
+								<a>干红</a>
+								<a>桃红</a>
+								<a>甜白</a>
+								<a>气泡</a>
+								<a>香槟</a>
+								<a>加强葡萄酒</a>
+								<a>列级名庄</a>
+							</p>
+						</li>
+						<li class="item-show-list">
+							<h4><a>酒具周边</a></h4>
+							<p>
+								<a>礼盒</a>
+								<a>西班牙</a>
+								<a>意大利</a>
+								<a>智利</a>
+								<a>干红</a>
+								<a>桃红</a>
+								<a>甜白</a>
+								<a>气泡</a>
+								<a>香槟</a>
+								<a>加强葡萄酒</a>
+								<a>列级名庄</a>
+							</p>
+						</li>
+					</ul>
+					<ul class="item-hide">
+						<!-- 加上.active为显示 -->
+						<li class="item-hide-list">
+							<!-- 加上.active为显示 -->
+							<h5><a>红葡萄酒</a></h5>
+							<p>
+								<a>干红</a>
+								<a>半干红</a>
+								<a>半甜红</a>
+								<a>甜红</a>
+							</p>
+						</li>
+						<li class="item-hide-list">
+							<h5><a>白葡萄酒</a></h5>
+							<p>
+								<a>干白</a>
+								<a>半干白</a>
+								<a>半甜白</a>
+								<a>甜白</a>
+								<a>贵腐酒</a>
+							</p>
+						</li>
+						<li class="item-hide-list">
+							<h5><a>红葡萄酒</a></h5>
+							<p>
+								<a>干红</a>
+								<a>半干红</a>
+								<a>半甜红</a>
+								<a>甜红</a>
+							</p>
+						</li>
+						<li class="item-hide-list">
+							<h5><a>白葡萄酒</a></h5>
+							<p>
+								<a>干白</a>
+								<a>半干白</a>
+								<a>半甜白</a>
+								<a>甜白</a>
+								<a>贵腐酒</a>
+							</p>
+						</li>
+						<li class="item-hide-list">
+							<h5><a>红葡萄酒</a></h5>
+							<p>
+								<a>干红</a>
+								<a>半干红</a>
+								<a>半甜红</a>
+								<a>甜红</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 右侧边栏 -->
+		<div class="right-side">
+			<!-- 个人登录 -->
+			<div class="personal">
+				<h3 class="per-title"><p></p></h3>
+				<div class="dlbg">
+					<p class="lingxing">◆</p>
+					<input class="mingch shuru" type="text" placeholder="请输入E-mail或手机号"/>
+					<input class="pwd shuru" type="password" placeholder="请输入密码"/>
+					<p class="zddl"><input class="ck" type="checkbox" value=""/>自动登录</p>
+					<p class="denglu">登录</p>
+					<p class="tishi">
+						<a href="javascript:;">[忘记密码？]</a>
+						<a href="register.html">[注册新账号]</a>
+					</p>
+					<div class="dlxz clearfix">
+						<a href="javascript:;"><div class="sina pic"></div></a>
+						<a href="javascript:;"><div class="alipay pic"></div></a>
+						<a href="javascript:;"><div class="qqc pic"></div></a>
+					</div>
+				</div>
+			</div>
+			<!-- 购物车 -->
+			<div class="buycar">
+				<div class="show">
+					<h3></h3>
+					<p>购物车</p>
+					<div class="count" id="count">0</div>
+				</div>
+				<div class="hide">
+					<p class="lingxing">◆</p>
+					<div class="goods nogoods active">
+						<p>您的购物车里没有任何商品，赶快去挑选商品吧！</p>
+					</div>
+					<div class="goods havegoods">
+						<p>您的购物车里已经有商品<span id="ccount">&nbsp;0&nbsp;</span>件</p>
+					</div>
+				</div>
+			</div>
+			<!-- 我的资产 -->
+			<div class="zichan">
+				<h3><p></p></h3>
+				<div class="money">
+					<p class="lingxing">◆</p>
+					<p class="my">我的资产</p>
+				</div>
+			</div>
+			<!-- 账户充值 -->
+			<div class="chongzhi">
+				<h3><p></p></h3>
+				<div class="money">
+					<p class="lingxing">◆</p>
+					<p class="my">账户充值</p>
+				</div>
+			</div>
+			<!-- 二维码 -->
+			<div class="weima">
+				<h3><p></p></h3>
+				<div class="wei">
+					<p class="lingxing">◆</p>
+					<div class="my"></div>
+				</div>
+			</div>
+			<!-- 回到顶部 -->
+			<div class="back-top">
+				<h3><p></p></h3>
+			</div>
+		</div>
+		<!-- 主要内容 -->
+		<div class="mainer">
+			<div class ="main">
+				<div class="main-title">
+					<h3>
+						<a href="javascript:;">选酒中心</a>&gt;
+						<a href="javascript:;">红葡萄酒</a>&gt;
+						<a href="javascript:;">干红</a>&gt;
+						<span>拉昂城堡干红葡萄酒<span>
+					</h3>
+				</div>
+				<div class="alone clearfix">
+					<div class="pic-area clearfix">
+						<ul class="big-pic-list clearfix">
+							<li class="active">
+								<img src="../images/index/220x3601.png" />
+							</li>
+							<li>
+								<img src="../images/index/220x3602.JPG" />
+							</li>
+							<li>
+								<img src="../images/index/220x3603.png" />
+							</li>
+							<li>
+								<img src="../images/index/220x3601.png" />
+							</li>
+						</ul>
+						<ul class="small-pic-list">
+							<li>
+								<img src="../images/index/220x3601.png" />
+							</li>
+							<li>
+								<img src="../images/index/220x3602.JPG" />
+							</li>
+							<li>
+								<img src="../images/index/220x3603.png" />
+							</li>
+							<li>
+								<img src="../images/index/220x3601.png" />
+							</li>
+						</ul>
+						<div class="mirror"></div>
+					</div>
+					<!-- 图片放大区域 -->
+					<div class="max-pic">
+						<ul class="max-pic-list">
+							<li>
+								<img src="../images/index/220x3601.png" />
+							</li>
+							<li>
+								<img src="../images/index/220x3602.JPG" />
+							</li>
+							<li>
+								<img src="../images/index/220x3603.png" />
+							</li>
+							<li>
+								<img src="../images/index/220x3601.png" />
+							</li>
+						</ul>
+					</div>
+					<div class="introduce">
+						<h2>
+							康纳斯顿梅洛干红葡萄酒（黑标）
+							<span>CornerStone Merlot Black Label</span>
+						</h2>
+						<div class="sppf">
+							<p>
+								<span>商品评分：</span>
+								<span><b></b><span>
+								<span>评论数：<i>2212</i></span>
+								<span>搭配菜肴：暂无</span>
+								<span>近期售出数：279795</span>
+							</p>
+						</div>
+						<div class="cxxx">
+							<p>
+								<span>促销信息：</span>
+								<span><b>买赠</b></span>
+								<span>
+									<i>新春大促：指定商品满199得新年红包*2+专业品酒笔记*1；满</i>
+								</span>
+								<span>
+									<a href="javascript:;">更多优惠</a>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript" src='http://127.0.0.1:80/yesmywine-project/js/detail.js'></script>
+	<script type="text/javascript" src='http://127.0.0.1:80/yesmywine-project/js/goodsList.js'></script>
+	</body>
+</html>

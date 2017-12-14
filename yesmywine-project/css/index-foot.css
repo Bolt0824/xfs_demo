@@ -1,0 +1,215 @@
+/*为了清除浮动。。。。。。。。。带来的某些板块高度为零*/
+.clear{	
+	clear: both;
+}	
+
+.foot{
+	width: 1263px;
+	/*margin: 0 auto;*/
+	background: #E8E8E8;
+	position: relative;
+}
+/*版心*/
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*内容*/
+/*商家承诺信息*/
+.foot .busi-com{
+	position: relative;
+	border-bottom: 1px solid #D3161B;
+	color: #D3161B;
+	margin-bottom: 30px;
+}
+
+.foot .busi-com h1{
+	float: left;
+	font: normal 30px/30px "微软雅黑";
+	margin: 50px 84px 40px 0;
+	text-indent: 10px;
+}
+.foot .busi-com h3{
+	float: left;
+	height: 38px;
+	font: 600 20px/40px  arial;
+	color: #D3161B;
+	padding-left: 50px;
+	margin: 50px 58px 40px 0px;
+}
+/*.foot .busi-com a{
+	padding-left: 40px;
+}*/
+.foot .busi-com .zp h3{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon9.png) no-repeat -109px 0px; 
+}
+.foot .busi-com .th h3{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon9.png) no-repeat -109px -38px; 
+}
+.foot .busi-com .hw h3{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon9.png) no-repeat -109px -76px; 
+}
+.foot .busi-com .yf h3{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon9.png) no-repeat -109px -114px; 
+}
+.foot .busi-com .mf h3{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon9.png) no-repeat -109px -152px; 
+}
+.foot .busi-com .yf span{
+	position: absolute;
+	bottom: 5px;
+	right: 170px;
+	width: 140px;
+}
+/*底部商家信息dl列表*/
+.foot .busi-infor{
+	position: relative;
+	padding-bottom: 70px;
+	/*margin-top: 20px;*/
+}
+.foot .busi-infor a:hover{
+	text-decoration: underline;
+}
+.foot .busi-infor dl{
+	float: left;
+	width: 120px;
+}
+.foot .busi-infor dt{
+	font: 600 14px/14px "微软雅黑";
+	margin-bottom: 15px;
+	color: #7A6666;
+}
+.foot .busi-infor dd{
+	font: normal 12px/20px "微软雅黑";
+	color: #666A72;
+}
+.foot .busi-infor dd a{
+	color: #666A72;
+}
+.foot .busi-infor .gzwm {
+	width: 170px;
+	float: left;
+	position: relative;
+}
+.foot .busi-infor .gzwm h3{
+	font: 600 14px/14px "微软雅黑";
+	margin-bottom: 15px;
+	color: #7A6666;
+}
+.foot .busi-infor p{
+	font: normal 12px/20px "微软雅黑";
+	color: #666A72;
+	/*width: 170px;*/
+}
+.foot .busi-infor .gzwmh{
+	margin-top: 20px;
+}
+.foot .ydpc{
+	width: 240px;
+	height: 220px;
+	position: relative;
+	float: right;
+}
+.foot .ydpc dt{
+	width: 106px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.foot .ydpc dd{
+	width: 100px;
+	height: 100px;
+}
+/*苹果*/
+.foot .ydpc .iphone{
+	float: left;
+	position: relative;
+}
+.foot .ydpc .iphone dt{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon9.png) 0 0; 
+}
+.foot .ydpc .iphone dd{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon3.png) 0 -200px; 
+}
+/*安卓*/
+.foot .ydpc .android dt{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon.png) 0 -29px; 
+}
+.foot .ydpc .android dd{
+	width: 100px;
+	height: 100px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon3.png) no-repeat 0 -300px; 
+}
+/*新浪*/
+.foot .sina{
+	position: relative;
+	width: 220px;
+	height: 50px;
+	margin-top: 170px;
+}
+.foot .sina .sina-pic{
+	width: 45px;
+	height: 45px;
+	float: left;
+	margin-right: 5px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon.png) no-repeat 0 -104px; 
+}
+.foot .sina h6{
+	font: normal 14px/20px "宋体";
+	color: #666666;
+	margin-bottom: 3px;
+}
+.foot .sina a{
+	padding: 2px 3px;
+	color: 666666;
+	font-size: 12px;
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+.foot .sina p{
+	color: #333333;
+	position: absolute;
+	top: 10px;
+	left: 125px;
+}
+/*终于要结束了*/
+.foot .public{
+	position: relative;
+	width: 1263px;
+	margin-left: -32px;
+	padding-bottom: 30px;
+	background: #FFFFFF;
+}
+.foot .public p{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.foot .public .gongsi a{
+	color: #867666;
+	margin: 0 10px;
+}
+.foot .public .gongsi a:hover{
+	text-decoration: underline;
+}
+.foot .public .yqlj a{
+	color: #CCCCCC;
+	/*margin-left: 0 1px;*/
+}
+.foot .public .shm{
+	margin-left: 240px;
+}
+.foot .public .banq a{
+	color: #999999;
+	margin-left: 0 10px;
+}
+.foot .public .finally{
+	width: 250px;
+	height: 40px;
+	margin: 10px auto;
+}
+.foot .public .finally img{
+	float: left;
+	width: 112px;
+	height: 40px;
+	margin-right: 13px;
+}

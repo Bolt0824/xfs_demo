@@ -1,0 +1,215 @@
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+
+/* 头部样式 */
+
+.header {
+	width: 100%;
+	border-bottom: 2px solid #BC0E31;
+}
+
+.header-title {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.header-title .left-logo {
+	float: left;
+	width: 316px;
+	height: 53px;
+	text-indent: -10000px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/logo3.png);
+}
+
+.header-title .right {
+	float: right;
+	width: 565px;
+	height: 53px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/head_right.jpg);
+}
+
+
+/******主要内容*************/
+.main {
+	width: 1200px;
+	margin: 30px auto;
+}
+
+.big-pic{
+	float: left;
+	width: 770px;
+	height: 423px;
+}
+.big-pic img{
+	margin: 9px auto;
+	max-width: 520px;
+	width: 500px;
+	height: 400px;
+}
+
+/*****登录表单*******************开始了*****/
+/*登陆栏*/
+.register {
+	width: 400px;
+	background: #fff;
+	position: relative;
+	border: 1px solid #DDDDDD;
+	/* top: 47px;
+	right: 0; */
+	margin: 10px 20px 0 0;
+	float: right;
+}
+.regi-box {
+	width: 330px;
+	margin: 45px auto;
+}
+/*登陆title样式*/
+.login-title {
+	width: 324px;
+	height: 22px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/login_text.gif);
+	text-indent: -100000px;
+	margin-bottom: 32px;
+}
+/*设置用户名和密码样式*/
+.login-icon {
+	height: 60px;
+	padding-left: 25px;
+}
+.login-icon input {
+	width: 288px;
+	height: 35px;
+	line-height: 32px;
+	vertical-align: middle;
+	border-top: 1px solid #968D88;
+	border-left: 1px solid #968D88;
+	border-right: 1px solid #CCBFB9;
+	border-bottom: 1px solid #CCBFB9;
+	padding: 0 10px;
+	margin-left: -10px;
+}
+.login-tips {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	line-height: 15px;
+	vertical-align: middle;
+	width: 212px;
+}
+/*设置remindMe样式*/
+.remindMe {
+	padding-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.remindMe input {
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.remindMe span {
+	float: left;
+}
+.remindMe a {
+	color: #a78668;
+	text-decoration: underline;
+	margin-left: 45px;
+}
+/*登陆按钮样式*/
+.login {
+	padding-left: 15px;
+	margin-top: 10px;
+}
+.login input {
+	display: inline;
+	width: 300px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 16px;
+	letter-spacing: 5px;
+	font-weight: 600;
+	border: 0;
+	cursor: pointer;
+	overflow: hidden;
+	background: #E40000;
+}
+/*忘记密码及新注册*/
+.regiNow {
+	text-align: right;
+	padding: 50px 160px 25px 0;
+}
+.regiNow a {
+	color: #3472B2;
+	margin-left: 15px;
+}
+.regiNow a:hover{
+	text-decoration: underline;
+}
+.login-link {
+	width: 400px;
+	padding: 10px 0 30px 38px;
+	text-align: center;
+	position: relative;
+	right: 35px;
+	border-top: 1px dotted #ccc;
+}
+.login-link p {
+	text-align: left;
+	height: 20px;
+	color: #999999;
+	font-family: "宋体"
+}
+.login-link img{
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+/*底部样式*/
+.foot{
+	border-top: 1px solid #CCCCCC;
+	margin-bottom: 30px;
+}
+.foot div{
+	margin-top: 10px;
+	text-align: center;
+}
+.foot .sheng img{
+	margin: 0 auto;
+}
+
+.foot .banq{
+	color: #999999;
+} 
+.foot .banq a{
+	color: #999999;
+	margin-left: 0 10px;
+}
+.foot .finally{
+	width: 250px;
+	height: 40px;
+	margin: 10px auto;
+}
+.foot .finally img{
+	float: left;
+	width: 112px;
+	height: 40px;
+	margin-right: 13px;
+}

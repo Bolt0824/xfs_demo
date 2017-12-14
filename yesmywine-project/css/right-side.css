@@ -1,0 +1,283 @@
+/*****右侧边栏*************************/
+.right-side{
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 925px;
+	width: 34px;
+	background: #7E0001;
+}
+.right-side .personal h3{
+	padding: 7px;
+	position: fixed;
+	top: 260px;
+	background: #7E0001;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .personal h3 p{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/sideright.png) no-repeat 2px 0px;	
+}
+/*登录信息表格*/
+.right-side .personal .dlbg{
+	position: absolute;
+	height: 250px;
+	top: 260px;
+	right: 35px;
+	padding: 35px 30px;
+	background: #ffffff;
+	border: 1px solid #B3AFAF;
+	border-right: none;
+	display: none;
+}
+.right-side .personal .dlbg.active{
+	display: block;
+}
+.right-side .personal .dlbg .shuru{
+	width: 298px;
+	height: 30px;
+	margin-bottom: 10px;
+	border: 1px solid #B3AFAF;
+}
+.right-side .lingxing{
+	font-size: 36px;
+	color: #ffffff;
+	position: absolute;
+	right:-11px;
+	top: -10px;
+}
+.right-side .personal .zddl{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 5px;
+}
+.right-side .personal .zddl input{
+	margin-top: 3px;
+	margin-right: 3px;
+}
+.right-side .personal .denglu{
+	width: 300px;
+	height: 32px;
+	background: #C60000;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 32px;
+	margin: 85px auto 10px;
+}
+.right-side .personal .tishi a{
+	color: #3472B2;
+	margin-right: 5px;
+}
+.right-side .personal .dlxz .pic{
+	width: 96px;
+	height: 30px;
+	margin-right: 3px;
+	float: left;
+	margin: 10px 2px 
+}
+.right-side .personal .dlxz .sina{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/btn_sina.jpg);	
+}
+.right-side .personal .dlxz .alipay{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/btn_alipay.jpg);	
+}
+.right-side .personal .dlxz .qqc{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/btn_qq.jpg);	
+}
+
+/*购物车*/
+.right-side .buycar{
+	position: fixed;
+	top: 300px;
+}
+.right-side .buycar .show{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .buycar .show h3{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -20px 1px;
+}
+.right-side .buycar .show p{
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+}
+.right-side .buycar .show .count{
+	background: #F46B0A;
+	color: #ffffff;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 5px auto;
+	line-height: 20px;
+}
+.right-side .buycar .hide{
+	width: 360px;
+	height: 70px;
+	position: absolute;
+	right: 35px;
+	top: 0px;
+	background: #ffffff;
+	border: 1px solid #B3AFAF;
+	border-right: none;
+	display: none;
+}
+.right-side .buycar .hide.active{
+	display: block;
+}
+.right-side .buycar .hide p{
+	font-size: 14px;
+	line-height: 70px;
+	margin-left: 20px;
+}
+.right-side .buycar .hide .lingxing{
+	position: absolute;
+	right: -12px;
+	font-size: 36px;
+}
+.right-side .buycar .hide .goods{
+	display: none;
+}
+.right-side .buycar .hide .goods.active{
+	display: block;
+}
+.right-side .buycar .hide .goods span{
+	color: red; 
+	font-size: 18px;
+	padding: 0 5px;
+}
+/*我的资产*/
+.right-side .zichan{
+	position: fixed;
+	top: 410px;
+}
+.right-side .zichan h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .zichan h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -40px 0px;
+}
+.right-side .zichan .money{
+	position: absolute;
+	right: 34px;
+	top: 3px;
+	background: #C1C1C1;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+.right-side .zichan .money.active{
+	display: block;
+}
+.right-side .zichan .lingxing{
+	position: absolute;
+	top: -1px;
+	color: #C1C1C1;
+}
+.right-side .zichan .my{
+	padding: 0 8px;
+}
+/*账户充值*/
+.right-side .chongzhi{
+	position: fixed;
+	top: 450px;
+}
+.right-side .chongzhi h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .chongzhi h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -60px 0px;
+}
+.right-side .chongzhi .money{
+	position: absolute;
+	right: 34px;
+	top: 3px;
+	background: #C1C1C1;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+.right-side .chongzhi .money.active{
+	display: block;
+}
+.right-side .chongzhi .lingxing{
+	position: absolute;
+	top: -1px;
+	color: #C1C1C1;
+}
+.right-side .chongzhi .my{
+	padding: 0 8px;
+}
+
+/*二维码*/
+.right-side .weima{
+	position: fixed;
+	top: 675px;
+}
+.right-side .weima h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .weima h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -100px 0px;
+}
+.right-side .weima .wei{
+	display: none;
+}
+.right-side .weima .wei.active{
+	display: block;
+}
+.right-side .weima .my{
+	position: absolute;
+	right: 34px;
+	top: -200px;
+	width: 193px;
+	height: 250px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/erwei.png);
+}
+.right-side .weima .lingxing{
+	position: absolute;
+	top: -5px;
+	right: 25px;
+	color: #ffffff;
+}
+
+/*回到顶部*/
+.right-side .back-top{
+	position: fixed;
+	top: 720px;
+	cursor: pointer;
+	display: none;
+}
+.right-side .back-top.active{
+	display: block;
+}
+.right-side .back-top h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .back-top h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -120px 0px;
+}

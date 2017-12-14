@@ -1,0 +1,280 @@
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+
+/* 头部样式 */
+
+.header {
+	width: 100%;
+	border-bottom: 2px solid #BC0E31;
+}
+
+.header-title {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.header-title .left-logo {
+	float: left;
+	width: 316px;
+	height: 53px;
+	text-indent: -10000px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/logo3.png);
+}
+
+.header-title .right {
+	float: right;
+	width: 565px;
+	height: 53px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/head_right.jpg);
+}
+
+
+/******主要内容*************/
+
+.main {
+	width: 1200px;
+	margin: 20px auto 30px;
+}
+
+
+/*****注册表单头部************************/
+
+.main-box {
+	float: left;
+	border: 1px solid #D2D2CE;
+	padding: 20px 10px;
+	position: relative;
+	/*width: 380px;*/
+	background: #F8F8F5;
+}
+
+.box-title {
+	margin: 0 12px 20px;
+}
+
+.box-title h3 {
+	font: bold 14px/1.5 "tahoma 微软雅黑";
+	text-align: left;
+	width: 354px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #d2d2ce;
+}
+
+.box-title a {
+	width: 354px;
+	position: relative;
+	left: 140px;
+	top: -18px;
+	color: #06c;
+}
+
+
+/******此处开始**********/
+
+
+/******注册表单*************************/
+
+.register {
+	width: 420px;
+	background: #fff;
+	position: relative;
+	/* top: 120px;
+	left: 0; */
+}
+
+.regi-box {
+	width: 400px;
+	margin: 45px auto;
+	margin-top: 15px;
+}
+.regi-box a{
+	color: #0066CC;
+}
+
+/*注册模块*/
+
+.register ul {
+	position: relative;
+}
+
+
+/*注册消息公共样式*/
+
+.regi-msg {
+	padding-left: 2px;
+	height: 64px;
+}
+
+.regi-msg label {
+	width: 85px;
+	float: left;
+	text-align: right;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.regi-msg input {
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	padding: 0 10px;
+	vertical-align: middle;
+	border-top: 2px solid #9A9A9A;
+	border-left: 2px solid #9A9A9A;
+	border-right: 2px solid #EEEEEE;
+	border-bottom: 2px solid #EEEEEE;
+}
+.regi-msg #regi-code{
+	width: 180px;
+}
+
+/*账号输入提示信息*/
+
+.remind-tips {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	line-height: 15px;
+	vertical-align: middle;
+	width: 212px;
+	margin-left: 85px;
+}
+
+
+/*获取验证码样式*/
+
+.recon-tel {
+	position: relative;
+}
+
+.recon-tel .getcode {
+	width: 70px;
+	line-height: 25px;
+	height: 25px;
+	border: 1px solid #ccc;
+	color: #fff;
+	position: absolute;
+	right: 30px;
+	top: 70px;
+	text-align: center;
+	cursor: pointer;
+	background: #F45F03;
+}
+
+.recon-tel .getcode:hover {
+	background: #a78668;
+	color: #fff;
+}
+
+
+/*同意条款样式*/
+
+.regi-agree {
+	margin-left: 62px;
+	margin-bottom: 20px;
+}
+.regi-agree  input{
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+
+/*注册按钮样式*/
+
+.regi-btn {
+	width: 350px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 16px;
+	border: 0;
+	cursor: pointer;
+	overflow: hidden;
+	background: #cf0101;
+	outline: none;
+}
+
+/*立即登录样式*/
+
+.regi-login {
+	margin-top: 50px;
+	text-align: right;
+	padding: 20px 35px 20px 0;
+}		
+
+.big-pic{
+	width: 760px;
+	height: 480px;
+	float: right;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/register_ads.jpg);	
+}
+
+/*底部样式*/
+.foot{
+	border-top: 1px solid #CCCCCC;
+	margin-bottom: 30px;
+}
+.foot div{
+	margin-top: 10px;
+	text-align: center;
+}
+.foot .sheng img{
+	margin: 0 auto;
+}
+
+.foot .banq{
+	color: #999999;
+} 
+.foot .banq a{
+	color: #999999;
+	margin-left: 0 10px;
+}
+.foot .finally{
+	width: 250px;
+	height: 40px;
+	margin: 10px auto;
+}
+.foot .finally img{
+	float: left;
+	width: 112px;
+	height: 40px;
+	margin-right: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

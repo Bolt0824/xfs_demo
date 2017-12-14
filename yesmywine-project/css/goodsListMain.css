@@ -1,0 +1,810 @@
+/*详情列表页主要内容样式*/
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-title p{
+	margin-bottom: 10px;
+	line-height: 20px;
+	height: 20px;
+	color: #333333;
+}
+.main-title p a{
+	color: 333333;
+}
+.main-title p a:hover{
+	text-decoration: underline;
+	color: #7E0001;
+}
+/*左侧边栏*/
+.main .left-sidebar {
+	position: relative;
+	float: left;
+}
+.main .left-sidebar h3{
+	width: 198px;
+	height: 38px;
+	background: #E8E3DD;
+	color: #333333;
+	font: bold 14px/38px "微软雅黑";
+	text-indent: 20px;
+}
+.main .left-sidebar a:hover{
+	text-decoration: underline;
+}
+/******************所有分类样式**************************/
+.main .all-classify{
+	position: relative;
+	margin-bottom: 10px;
+	border: 1px solid #E6E1DB;
+}
+.all-classify .title{
+	width: 198px;
+	height: 39px;	
+	position: relative;
+	background: #FBFAF9;
+	border-bottom: 1px solid #E6E1DB;
+}
+.all-classify .title p{
+	width: 17px;
+	height: 16px;
+	float: left;
+	margin: 12px 10px;
+	cursor: pointer;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/icons.png) no-repeat 0 -216px;	
+}
+.all-classify .title p.active{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/icons.png) no-repeat 0 -200px;	
+}
+.all-classify .title a{
+	font: normal 14px/39px "微软雅黑";
+	color: #333333;
+}
+.all-classify .title a:hover{
+	color: #C63F4E;
+}
+.all-classify .kind{
+	background: #FFFFFF;
+	padding: 15px 0;
+	display: none;
+}
+.all-classify .kind.active{
+	display: block;
+}
+.all-classify .kind p{
+	margin-left: 40px;
+	height: 25px;
+	line-height: 25px;
+}
+.all-classify .kind a{
+	color: 666666;
+}
+.all-classify .kind a:hover{
+	color: #fff;
+	background: #C63F4E;
+}
+
+/**********一周销量排行*********************/
+
+.left-sidebar .week-consider{
+	position: relative;
+	margin-bottom: 10px;
+	border: 1px solid #E6E1DB;
+}
+.left-sidebar .week-consider-list{
+	width: 198px;
+	position: relative;
+	border-bottom: 1px solid #DDDDDD;
+}
+.left-sidebar .week-consider-list h5{
+	font: normal 12px/45px "微软雅黑";
+	margin-left: 10px;
+	display: none;
+}
+.left-sidebar .week-consider-list h5.active{
+	display: block;
+}
+.left-sidebar .week-consider-list h5 p{
+	font: bold 14px/20px "微软雅黑";
+	color: #ffffff;
+	width: 24px;
+	height: 20px;
+	float: left;
+	position: absolute;
+	top: 13px;
+	text-align: center;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/sprite.png) no-repeat -85px -70px;	
+}
+.left-sidebar .week-consider-list h5 a{
+	color: #5B473D;
+	padding-left: 40px;
+}
+.left-sidebar .week-consider-list h4{
+	font: normal 12px/20px "微软雅黑";
+	margin-left: 10px;
+	margin-bottom: 30px;
+	padding-right: 20px;
+}
+.left-sidebar .week-consider-list h4 p{
+	font: bold 14px/20px "微软雅黑";
+	color: #5B473B;
+	width: 24px;
+	height: 20px;
+	float: left;
+	position: absolute;
+	top: 13px;
+	text-align: center;
+	/*background: url(http://127.0.0.1:80/yesmywine-project/icon/sprite.png) no-repeat -60px -70px;	*/
+}
+.left-sidebar .week-consider-list h4 a{
+	color: #5B473D;
+	width: 90px;
+	padding-top: 10px;
+}
+.left-sidebar .week-consider-list .list-content{
+	height: 120px;
+	width: 198px;
+	padding-top: 10px;
+	display: none;
+}
+.left-sidebar .week-consider-list .list-content.active{
+	display: block;
+}
+.left-sidebar .week-consider-list .list-content img{
+	float: left;
+	padding: 6px 10px;
+	margin-left: 10px;
+}
+.left-sidebar .week-consider-list .list-content p{
+	color: #C53F94;
+	font-size: 14px;	
+}
+.left-sidebar .week-consider-list .list-content b{
+	font-size: 20px;
+	sfont-family: Georgia;
+}
+/**********为你推荐*********************/
+
+.left-sidebar .tui-jian{
+	position: relative;
+	margin-bottom: 10px;
+	border: 1px solid #E6E1DB;
+}
+.left-sidebar .tui-jian-list{
+	width: 178px;
+	position: relative;
+	padding: 10px;
+	border-bottom: 1px  dashed #cbc1b8;
+}
+.left-sidebar .tui-jian-list.last{
+	border: none;
+}
+.left-sidebar .tui-jian-list img{
+	margin: 0 auto;
+}
+.left-sidebar .tui-jian-list h4{
+	color: #333333;
+	margin: 5px 0;
+	font: normal 12px/20px "微软雅黑";
+}
+.left-sidebar .tui-jian-list span{
+	color: #333333;
+}
+.left-sidebar .tui-jian-list p{
+	margin-top: 15px;
+	text-align: center;
+	color: #AA1F04;
+}
+/******右侧内容头部三个*********************************************/
+.main-right-top{
+	position: relative;
+	float: right;
+	margin-bottom: 10px;
+	border: 1px solid #E8E3DD;
+}
+.main-right-top .top-three{
+	padding: 20px 0;
+	border-bottom: 1px solid #CBC1B8;
+}
+.main-right-top .top-three li{
+	float: left;
+}
+.main-right-top .top-three li+li{
+	margin-left: 105px;
+}
+.main-right-top .top-three img{
+	float: left;
+	margin: 0 10px;
+}
+.main-right-top .top-three h4{
+	margin-left: 80px;
+	margin-bottom: 15px;
+	width: 180px;
+	height: 40px;
+	overflow: hidden;
+}
+.main-right-top .top-three h4 a{
+	font: normal 12px/20px "微软雅黑";
+	color: #333333;
+}
+.main-right-top .top-three h4 span{
+	display: block;
+	color: #666;
+	font-family: "Tahoma";
+}
+.main-right-top .top-three p{
+	color: #DB3838;
+	line-height: 20px;
+}
+.main-right-top .top-three p b{
+	font: normal 16px/20px "tahoma";
+}
+.main-right-top .top-three button{
+	border: none;
+	background: #DB3838;
+	padding: 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+/****************右侧头部内容选项************************/
+.main-right-top .top-select{
+	padding: 0 20px;
+	text-indent: 25px;
+	/*margin: 10px;*/
+	position: relative;
+}
+.main-right-top .top-select li{
+	position: relative;
+	padding: 4px 0;
+	height: 32px; 
+	line-height: 32px;
+}
+.main-right-top .top-select li+li{
+	border-top: 1px dashed #CBC1B8;
+}
+.main-right-top .top-select li p{
+	font: normal 12px/32px "微软雅黑";
+	color: #666666;
+	width: 750px; 
+	height: 32px;
+	overflow: hidden; 
+	padding-right: 170px;
+}
+.main-right-top .top-select li h6{
+	 position: absolute;
+	right: 30px; 
+}
+.main-right-top .top-select li a{
+	margin: 0 14px;
+	/*display: inline-block;*/
+	/*display: block;*/
+	/*float: left;*/
+	/*float: left;*/
+}
+.main-right-top .top-select li a:hover{
+	background: #C63F4E;
+	color: #ffffff;
+}
+.main-right-top .top-select li i{
+	background: #C63F4E;
+	color: #ffffff;
+	padding: 0 3px;
+}
+.main-right-top .price-search{
+	/*float: right;*/
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.main-right-top input{
+	width: 35px;
+	height: 20px;
+	padding: 0 2px;
+	margin: 0 2px;
+	border: 1px solid #C8BDB0;
+}
+.main-right-top input:focus{
+	outline: 1px solid #8BA7D8;
+}
+.main-right-top .price-begin{
+	margin-right: 15px;
+}
+.main-right-top .price-sure{
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #AA998A;
+	background: #F7F5F2;
+}
+.main-right-top .price-sure:focus{
+	outline: none;
+}
+.main-right-top .price-fengexian{
+	position: absolute;
+	top: -5px;
+	left: 23px;
+}
+/******右侧主要内容********************************/
+.right-product{
+	position: relative;
+	/*float: right;*/
+	margin-left: 209px;
+	margin-top: 355px;
+	height: 100px;
+}
+/******右侧主要内容选项标题********************************/
+.right-product .title{
+	position: relative;
+	height: 40px;
+	border-bottom: 2px solid #C63F4E;
+}
+.right-product .title li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	margin-right: 3px;
+	background: #F4F2EF;
+}
+.right-product .title .first{
+	background: #952E38;
+}
+.right-product .title .first a{
+	color: #FFFFFF;
+	border: none;
+}
+.right-product .title a{
+	display: block;	
+	line-height: 40px;
+	font: normal 14px/40px "微软雅黑";
+	color: #494444;
+	border: 1px solid #CBC1B8;
+	border-bottom: none;
+}
+.right-product .title a:hover{
+	border: 1px solid #AA998A;
+	border-bottom: none;
+}
+/*****商品排序**********************************/
+.right-product .product-sort{
+	position: relative;
+	border: 1px solid #CBC1B8;
+	border-top: none;
+	height: 55px;
+}
+.right-product .product-sort li{
+	float: left;
+	height: 26px;
+	margin: 12px 5px 13px 0px;
+	text-align: center;
+	background: #F4F2EF;
+	border: 1px solid #CBC1B8;
+}
+.right-product .product-sort .first{
+	background: #952E38;
+	margin-left: 10px;
+}
+.right-product .product-sort .first a{
+	color: #FFFFFF;
+	border: none;
+}
+.right-product .product-sort a{
+	line-height: 26px;
+	padding: 0 17px;
+	font: normal 14px/26px "微软雅黑";
+	color: #494444;
+}
+.right-product .product-sort li:hover{
+	background: #952E38;
+}
+.right-product .product-sort a:hover{
+	color: #ffffff;
+}
+/******所有商品列表*********************************/
+.all-product{
+	position: relative;
+	margin-left: 209px;
+	margin-top: 10px;
+}
+
+.all-product li{
+	float: left;
+	/* width: 184px;
+	height: 236px; */
+	margin-right: 9px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	border: 3px solid rgba(221,57,57,0.8);
+}
+.all-product .first-page li{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.all-product li img{
+	margin: 0 auto;
+	padding: 20px 0 35px;
+}
+.all-product .base{
+	padding: 10px 8px;
+	background: #F8F8F5;
+}
+.all-product .base span{
+	display: block;
+	line-height: 20px;
+	color: #444444;
+}
+.all-product .base .promo{
+	color: #CC0000;
+}
+.all-product .base .price{
+	color: #CC0000;
+}
+.all-product .base .price b{
+	/*color: #CC0000;*/
+	font: normal 22px/32px "微软雅黑";
+}
+.all-product .join-car{
+	text-align: center;
+	margin: 0 7px 5px;
+	background: #dd3939;
+	height: 26px;
+	cursor: pointer;
+	font: normal 14px/26px "微软雅黑";
+	color: #ffffff;
+}
+.all-product .xinxi span{
+	display: block;
+	float: left;
+	width: 59px;
+	height: 44px;
+	line-height: 22px;
+	text-align: center;
+	color: #666666;
+	border: 1px solid #EFEFEF;
+}
+.all-product .xinxi strong{
+	display: block;
+}
+.all-product .xinxi .haoping strong{
+	color: #CC001F;
+}
+.all-product .xinxi .pinglun strong a{
+	color: #3396D2;
+}
+.all-product .xinxi .shouchu strong{
+	color: #B57C60;
+}
+/*******页码标记 ****************/
+
+.page-count{
+	position: relative;
+	margin: 50px 180px 0;
+}
+.page-count li{
+	float: left;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	border: 1px solid #AA998A;
+}
+.page-count li a{
+	padding: 0 13px;
+	color: #404040;
+}
+.page-count .active{
+	background: #C6404F;
+	border: 1px solid #C6404F;
+}
+.page-count .active a{
+	color: #FEFBFB;
+}
+
+/*****右侧边栏*************************/
+.right-side{
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 925px;
+	width: 34px;
+	background: #7E0001;
+}
+.right-side .personal h3{
+	padding: 7px;
+	position: fixed;
+	top: 260px;
+	background: #7E0001;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .personal h3 p{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/sideright.png) no-repeat 2px 0px;	
+}
+/*登录信息表格*/
+.right-side .personal .dlbg{
+	position: absolute;
+	height: 250px;
+	top: 260px;
+	right: 35px;
+	padding: 35px 30px;
+	background: #ffffff;
+	border: 1px solid #B3AFAF;
+	border-right: none;
+	display: none;
+}
+.right-side .personal .dlbg.active{
+	display: block;
+}
+.right-side .personal .dlbg .shuru{
+	width: 298px;
+	height: 30px;
+	margin-bottom: 10px;
+	border: 1px solid #B3AFAF;
+}
+.right-side .lingxing{
+	font-size: 36px;
+	color: #ffffff;
+	position: absolute;
+	right:-11px;
+	top: -10px;
+}
+.right-side .personal .zddl{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 5px;
+}
+.right-side .personal .zddl input{
+	margin-top: 3px;
+	margin-right: 3px;
+}
+.right-side .personal .denglu{
+	width: 300px;
+	height: 32px;
+	background: #C60000;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 32px;
+	margin: 85px auto 10px;
+}
+.right-side .personal .tishi a{
+	color: #3472B2;
+	margin-right: 5px;
+}
+.right-side .personal .dlxz .pic{
+	width: 96px;
+	height: 30px;
+	margin-right: 3px;
+	float: left;
+	margin: 10px 2px 
+}
+.right-side .personal .dlxz .sina{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/btn_sina.jpg);	
+}
+.right-side .personal .dlxz .alipay{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/btn_alipay.jpg);	
+}
+.right-side .personal .dlxz .qqc{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/btn_qq.jpg);	
+}
+
+/*购物车*/
+.right-side .buycar{
+	position: fixed;
+	top: 300px;
+}
+.right-side .buycar .show{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .buycar .show h3{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -20px 1px;
+}
+.right-side .buycar .show p{
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+}
+.right-side .buycar .show .count{
+	background: #F46B0A;
+	color: #ffffff;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 5px auto;
+	line-height: 20px;
+}
+.right-side .buycar .hide{
+	width: 360px;
+	height: 70px;
+	position: absolute;
+	right: 35px;
+	top: 0px;
+	background: #ffffff;
+	border: 1px solid #B3AFAF;
+	border-right: none;
+	display: none;
+}
+.right-side .buycar .hide.active{
+	display: block;
+}
+.right-side .buycar .hide p{
+	font-size: 14px;
+	line-height: 70px;
+	margin-left: 20px;
+}
+.right-side .buycar .hide .lingxing{
+	position: absolute;
+	right: -12px;
+	font-size: 36px;
+}
+.right-side .buycar .hide .goods{
+	display: none;
+}
+.right-side .buycar .hide .goods.active{
+	display: block;
+}
+.right-side .buycar .hide .goods span{
+	color: red; 
+	font-size: 18px;
+	padding: 0 5px;
+}
+/*我的资产*/
+.right-side .zichan{
+	position: fixed;
+	top: 410px;
+}
+.right-side .zichan h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .zichan h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -40px 0px;
+}
+.right-side .zichan .money{
+	position: absolute;
+	right: 34px;
+	top: 3px;
+	background: #C1C1C1;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+.right-side .zichan .money.active{
+	display: block;
+}
+.right-side .zichan .lingxing{
+	position: absolute;
+	top: -1px;
+	color: #C1C1C1;
+}
+.right-side .zichan .my{
+	padding: 0 8px;
+}
+/*账户充值*/
+.right-side .chongzhi{
+	position: fixed;
+	top: 450px;
+}
+.right-side .chongzhi h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .chongzhi h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -60px 0px;
+}
+.right-side .chongzhi .money{
+	position: absolute;
+	right: 34px;
+	top: 3px;
+	background: #C1C1C1;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+.right-side .chongzhi .money.active{
+	display: block;
+}
+.right-side .chongzhi .lingxing{
+	position: absolute;
+	top: -1px;
+	color: #C1C1C1;
+}
+.right-side .chongzhi .my{
+	padding: 0 8px;
+}
+
+/*二维码*/
+.right-side .weima{
+	position: fixed;
+	top: 675px;
+}
+.right-side .weima h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .weima h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -100px 0px;
+}
+.right-side .weima .wei{
+	display: none;
+}
+.right-side .weima .wei.active{
+	display: block;
+}
+.right-side .weima .my{
+	position: absolute;
+	right: 34px;
+	top: -200px;
+	width: 193px;
+	height: 250px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/erwei.png);
+}
+.right-side .weima .lingxing{
+	position: absolute;
+	top: -5px;
+	right: 25px;
+	color: #ffffff;
+}
+
+/*回到顶部*/
+.right-side .back-top{
+	position: fixed;
+	top: 720px;
+	cursor: pointer;
+	display: none;
+}
+.right-side .back-top.active{
+	display: block;
+}
+.right-side .back-top h3{
+	padding: 7px;
+	border-bottom: 1px solid #8B1A1B;
+}
+.right-side .back-top h3 p{
+	width: 20px;
+	height: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/nBar_icon.png) no-repeat -120px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

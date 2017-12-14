@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>也买酒注册页面</title>
+		<link rel="shortcut icon" type="text/css" href="../icon/1.ico" />
+		<link rel='stylesheet' type="text/css" href='../css/common.css' />
+		<link rel='stylesheet' type="text/css" href='../css/register.css' />
+		<script type="text/javascript" src='../libray/jquery-1.11.3.js'></script>
+		<script type="text/javascript" src='../libray/jquery.cookie.js'></script>
+
+	</head>
+
+	<body>
+		<!-- 表头 -->
+		<div class="header">
+			<div class="header-title">
+				<a href="http://127.0.0.1:80/yesmywine-project/client/index.html" target="_blank">
+					<div class="left-logo">
+						也买酒
+					</div>
+				</a>
+				<div class="right">
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 主要内容 -->
+		<div class="main">
+			<!-- 注册模块大盒子 -->
+			<div class="main-box">
+				<div class="box-title">
+					<h3>注册也买酒</h3>
+					<a href="http://127.0.0.1:80/yesmywine-project/client/login.html" target="_blank">
+						您可以使用QQ、支付宝、新浪微博登录
+					</a>
+				</div>
+				<!-- 账号注册模块 -->
+				<div class='regi-box'>
+					<form action='login.html' method='post'>
+						<input type='hidden' name='username' />
+						<input type='hidden' name='email' />
+						<ul>
+							<li class='regi-msg recon-tel'>
+								<label for='regi-phone'>您的手机：</label>
+								<input id='regi-phone' type='text' />
+								<span class='remind-tips'></span>
+								<span class='getcode'>获取验证码</span>
+							</li>
+							<li class='regi-msg'>
+								<label for='regi-code'>手机验证码：</label>
+								<input id='regi-code' type='text' />
+								<span class='remind-tips'></span>
+							</li>
+							<li class='regi-msg'>
+								<label for='regi-pwd'>密码：</label>
+								<input id='regi-pwd' type='password' />
+								<span class='remind-tips'></span>
+							</li>
+							<li class='regi-msg'>
+								<label for='confir-pwd'>确认密码：</label>
+								<input id='confir-pwd' type='password' />
+								<span class='remind-tips'></span>
+							</li>
+							<li class='regi-agree'>
+								<input checked='checked' id='confir-pwd' type='checkbox' name='agree' /> 我已满18周岁并接受
+								<a href="#">
+									《也买酒服务条款》
+								</a>
+							</li>
+							<li>
+								<input class='regi-btn' type='submit' value='注册完成' />
+							</li>
+							<li class='regi-login'>
+								<span>已有账号？</span>
+								<a href="http://127.0.0.1:80/yesmywine-project/client/login.html" target="_blank">立即登录</a>
+							</li>
+						</ul>
+					</form>
+				</div>
+				<script type="text/javascript" src='http://127.0.0.1:80/yesmywine-project/js/register.js'></script>
+			</div>
+			<div class="big-pic">
+
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- 底部 -->
+		<div class="foot">
+			<div class="sheng">
+				<img src="http://127.0.0.1:80/yesmywine-project/icon/sheng.png" />
+			</div>
+			<div class="banq">
+				Copyright 2006-2015 也买酒 yesmywine.com 版权所有 |
+				<a href="javascript:;">沪ICP备15036938号-1</a>
+			</div>
+			<div class="finally">
+				<a href="javascript:;">
+					<img src="http://127.0.0.1:80/yesmywine-project/images/index/chengxin.png" />
+				</a>
+				<a href="javascript:;">
+					<img src="http://127.0.0.1:80/yesmywine-project/images/index/jiujiao.jpg" />
+				</a>
+			<div>
+		</div>
+	</body>
+
+</html>

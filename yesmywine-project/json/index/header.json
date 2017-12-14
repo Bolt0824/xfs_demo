@@ -1,0 +1,11 @@
+{"pic":
+	[
+		{"imgSrc":"header1.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"},
+		{"imgSrc":"header2.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"},
+		{"imgSrc":"header3.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"},
+		{"imgSrc":"header4.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"},
+		{"imgSrc":"header5.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"},
+		{"imgSrc":"header6.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"},
+		{"imgSrc":"header7.jpg","href":"http://127.0.0.1:80/yesmywine-project/client/detail.html"}
+	]
+}

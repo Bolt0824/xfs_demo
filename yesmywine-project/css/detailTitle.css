@@ -1,0 +1,415 @@
+/***********************************头部样式 *********************************************/
+/*body{background: #97BDDF;}*/
+.header {
+	width: 1263px;
+	position: relative;
+	background: #F1EEED;
+	/*margin: 0 auto;*/
+}
+
+
+/*表头样式*********************************************************/
+
+.header .head-title {
+	width: 100%;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header4.png) repeat-x;
+}
+
+.head-title-con{
+	width: 960px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.head-title-con li {
+	height: 16px;
+	padding: 7px 8px;
+	float: left;
+	line-height: 18px;
+	color: #85726C;
+	font-family: "宋体";
+}
+
+.head-title-con a:hover {
+	color: #C53F4C;
+	text-decoration: underline;
+}
+
+
+/*登录注册项*/
+
+.head-title .title-left {
+	float: left;
+}
+
+.head-title .title-left .member-count {
+	font-size: 13px;
+	color: #C53F4C;
+	margin-right: 5px;
+	font-family: "微软雅黑";
+}
+
+.head-title .title-left .register {
+	font-weight: 600;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header5.png) no-repeat -180px -200px;
+}
+/*信息栏*/
+
+.head-title .infor-center {
+	float: right;
+}
+
+.head-title .infor-center li+li {
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header5.png) no-repeat -180px -200px;
+}
+
+.head-title .infor-center .set-undis {
+	font-weight: 600;
+}
+
+
+/*我的账户系列*/
+
+.head-title .infor-center .my-account {
+	position: relative;
+}
+
+.head-title .infor-center .my-account .my-account-a {
+	padding-right: 10px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header4.png) no-repeat right -187px;
+	display: block;
+}
+
+.head-title .infor-center .my-account-list {
+	width: 100px;
+	height: 100px;
+	padding: 3px 0px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	display: none;
+	z-index: 55;
+}
+
+.head-title .infor-center .my-account-list.active {
+	display: block;
+}
+
+.head-title .infor-center .my-account-list li {
+	clear: both;
+	background: #FFFFFF;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	padding: 0;
+}
+
+.head-title .infor-center .my-account-list li:hover {
+	background: #C53F4C;
+	color: #FFFFFF;
+}
+
+.head-title .infor-center .my-account-list a {
+	text-decoration: none;
+	padding: 0 8px;
+}
+.head-title .infor-center .my-account-list li:hover a {
+	color: #FFFFFF;
+}
+.head-title .infor-center .my-account-list span{
+	color: #fff;
+	font-size: 6px;
+	position: absolute;
+	top: -11px; 
+	left: 29px;
+}
+
+/*手机版系列*/
+
+.head-title .infor-center .phone-ver {
+	position: relative;
+}
+
+.head-title .infor-center .phone-ver .phone-ver-a {
+	padding-left: 15px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header5.png) no-repeat -180px -182px;
+	display: block;
+}
+
+.head-title .infor-center .phone-ver-list {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: #F1EEED;
+	width: 282px;
+	height: 177px;
+	display: none;
+	z-index: 55555;
+}
+
+.head-title .infor-center .phone-ver-list.active {
+	display: block;
+}
+
+.head-title .infor-center .phone-ver-list .app-first {
+	padding: 5px;
+	background: #FFFFFF;
+}
+
+.head-title .infor-center .phone-ver-list .app-first b {
+	color: #E50108;
+	padding-left: 3px;
+}
+
+.head-title .infor-center .phone-ver-list .app-content {
+	position: relative;
+}
+
+.head-title .infor-center .phone-ver-list .app-content li {
+	padding: 0;
+}
+
+.head-title .infor-center .phone-ver-list .more-fav {
+	position: absolute;
+	top: 150px;
+	padding-left: 15px;
+	width: 267px;
+	height: 27px;
+	line-height: 27px;
+	background: #FFFFFF;
+}
+
+.head-title .infor-center .phone-ver-list .more-fav a {
+	color: #0066CC;
+}
+
+.head-title .infor-center .phone-ver-list .red-code {
+	float: left;
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.head-title .infor-center .phone-ver-list .app-content-list {
+	position: absolute;
+}
+
+.head-title .infor-center .phone-ver-list .app-content-list span {
+	width: 150px;
+	position: absolute;
+	top: 10px;
+	left: 125px;
+	font-weight: 600;
+}
+
+.head-title .infor-center .phone-ver-list .app-content-list .ios-img {
+	position: absolute;
+	top: 30px;
+	left: 125px;
+}
+
+.head-title .infor-center .phone-ver-list .app-content-list .android-img {
+	position: absolute;
+	top: 85px;
+	left: 125px;
+}
+
+
+/*也买酒服务*/
+
+.head-title .infor-center .yesmy-serve {
+	position: relative;
+}
+
+.head-title .infor-center .yesmy-serve .yesmy-serve-a {
+	padding-right: 10px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header4.png) no-repeat right -187px;
+	display: block;
+}
+
+.head-title .infor-center .yesmy-serve .yesmy-serve-list {
+	position: absolute;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: #FFFFFF;
+	width: 140px;
+	height: 100px;
+	padding: 5px 10px;
+	display: none;
+	z-index: 55;
+}
+
+.head-title .infor-center .yesmy-serve .yesmy-serve-list.active {
+	display: block;
+}
+
+.head-title .infor-center .yesmy-serve .yesmy-serve-list a {
+	text-decoration: none;
+	padding: 3px 1px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.head-title .infor-center .yesmy-serve .yesmy-serve-list a:hover {
+	color: #FFFFFF;
+	background: #C53F4C;
+}
+/* 头部logo 搜索框之类 */
+.header .head-find{
+	position: relative;
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	background: #F1EEED;
+}
+.header .head-find-left{
+	width: 293px;
+}
+.header .head-find .left-logo{
+	width: 130px;
+	height: 100px;
+	float: left;
+	text-indent: -10000px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/logo1.png) no-repeat left center;
+}
+.header .head-find .right-logo{
+	width: 163px;
+	height: 100px;
+	float: left;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/logo.png) no-repeat;
+}
+/*搜索框上下的样式*/
+.header .head-find-right{
+	position: relative;
+	width: 614px;
+	height: 100px;
+	float: right;
+}
+.header .head-find-right .search-box{
+	margin-top: 30px;
+	float: left;
+	position: relative;
+}
+.header .head-find-right .search-content {
+	width: 370px;
+	height: 23px;
+	border: 1px solid #DCD3CF;
+	border-right: none;
+	padding: 5px;
+	font-size: 14px;
+}
+.header .head-find-right .search-box .btn{
+	width: 80px;
+	height: 35px;
+	position: absolute;
+	text-indent: -10000px;
+	cursor: pointer;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header3.png) no-repeat 0px -230px;
+}
+.header .head-find-right .search-box p{
+	height: 24px;
+	line-height: 24px;
+}
+.header .head-find-right .search-box p a{
+	margin-right: 10px;
+	color: #a80203;
+}
+.header .head-find-right .search-box a:hover{
+	color: #C53F4C;
+	text-decoration: underline;
+}
+.header .head-find-right .shopping-car{
+	margin: 30px;
+	float: right;
+	position: relative;
+}
+.header .head-find-right .shopping-car-show {
+	width: 123px;
+	height: 35px;
+	position: absolute;
+	right: -30px;
+	font: normal 14px/35px "宋体";
+	text-align: center;
+	color: #FFFFFF;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header5.png) no-repeat 0 -160px;
+}
+.header .head-find-right .shopping-car-show.active {
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header5.png) no-repeat 0 -195px;
+}
+.header .head-find-right .shopping-car-hide {
+	width: 300px;
+	height: 30px;
+	background: #ffffff;
+	position: absolute;
+	top: 35px;
+	right: -30px;
+	padding: 10px;
+	font: normal 14px/30px "宋体";
+	border: 1px solid #35302F;
+	z-index: 999;
+	display: none;
+}
+.header .head-find-right .shopping-car-hide.active {
+	display: block;
+}
+.header .head-find-right .shopping-car-hide a{
+	margin: 0 2px;
+	color: #C53F4C;
+	font-weight: 600;
+}
+
+/*头部标题列表*/
+
+.header-nav {
+	background: #7E0001;
+	position: relative;
+	height: 35px;
+}
+
+.header-nav .header-nav-list {
+	width: 783px;
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+	left: 110px;
+}
+
+.header-nav .header-nav-list li {
+	float: left;
+	padding: 3px 0;
+	line-height: 29px;
+}
+
+.header-nav .header-nav-list li a{
+	font: normal 14px/19px Microsoft YaHei;
+	color: #ede8e6;
+	padding: 0 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header.png) no-repeat right -166px;
+}
+
+.header-nav .header-nav-list li:hover{
+	background: #774F43;
+}
+.header-nav .header-nav-list .newpic a{
+	padding-right: 30px;
+}
+.header-nav .header-nav-list .newpic p{
+	width: 23px;
+	height: 11px;
+	position: absolute;
+	top: 5px;
+	right: 243px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/new.png);	
+}
+
+
+
+
+
+
+
+
+

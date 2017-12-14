@@ -1,0 +1,132 @@
+
+.check-wine-center{
+	position: relative;
+	z-index: 999999;
+	/*width: 500px;
+	height: 500px;*/
+}
+.check-wine-center h3 {
+	padding: 8px 10px;
+	background: #624B40;
+	width: 180px;
+	position: absolute;
+	top: -35px;
+	left: 25px;	
+}
+.check-wine-center h3 a{
+	padding-left: 20px;
+	font: 600 15px/19px "微软雅黑";
+	letter-spacing: 5px;
+	color: #ece7e5;
+	display: block;
+	width: 160px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header5.png) no-repeat -180px -160px;
+}
+/* .check-wine-center h3:hover{
+	background: #774F43;
+} */
+.check-wine-center h3 p{
+	width: 11px;
+	height: 6px;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header3.png) no-repeat -160px -175px;
+}
+.check-wine-center h3:hover p{
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/bg_header3.png) no-repeat -160px -184px;	
+}
+.check-wine-center .wine-group {
+	position: absolute;
+	left: 25px;
+	z-index: 99999;
+}
+.check-wine-center .wine-group a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.check-wine-center .item-show {
+	float: left;
+	position: absolute;
+	background: #73584a;
+	display: none;
+}
+.check-wine-center .item-show.active{
+	display: block;
+}
+.check-wine-center .item-show li {
+	padding: 0px 15px;
+	height: 99px;
+	width: 170px;
+	list-style: none;
+	position: relative;
+}
+.check-wine-center .item-show li+li{
+	border-top: solid 1px #624B40;
+}
+.check-wine-center .item-show-list p {
+	color: #85726C;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.check-wine-center .item-show-list a {
+	float: left;
+	margin-right: 10px;
+	color: #9C8F83;
+}
+
+.check-wine-center .item-show-list h4 {
+	height: 20px;
+	line-height: 20px;
+	width: 180px;
+	float: left;
+	margin: 5px 0;
+	font: 600 14px/20px "微软雅黑";
+	background: url(../icon/bg_header4.png) no-repeat right -203px;
+}
+.check-wine-center .item-show-list h4 a{
+	color: #DBCBC8;
+}
+.check-wine-center .item-hide{
+	background: #73584A;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	position: absolute;
+	left: 200px;
+	float: left;
+	z-index: 9999;
+}
+.check-wine-center .item-hide-list{
+	display: none;
+	width: 230px;
+	min-height: 80px;
+	padding: 10px;
+	background: #73584A;
+	border-bottom: 1px dotted #81665c;
+	position: absolute;
+	left: -200px;	
+	z-index: 9999;
+}
+.check-wine-center .item-hide-list.active{
+	display: block;
+	z-index: 9999;
+}
+.check-wine-center .item-hide-list h5 {
+	font: normal 14px/24px "微软雅黑";
+	float: left;
+	width: 80px;
+	height: 90px;
+	/*height: inherit;*/
+	margin: 0;
+}
+.check-wine-center .item-hide-list h5 a{
+	color: #DBCBC8;
+}
+.check-wine-center .item-hide-list p a {
+	font: normal 12px/24px "微软雅黑";
+	float: left;
+	margin-right: 15px;
+	color: #9C8F83;
+}

@@ -1,0 +1,47 @@
+
+@charset "utf-8";
+/* CSS Document */
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clear{
+	clear: both;
+}
+table,tr,td,th{
+	border:none;
+	text-align:left;
+}
+table{
+	border-collapse:collapse;
+}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "微软雅黑","宋体","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none; outline: none; color: #85726C;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+html,body{width:100%; height:100%;}
+body{
+	background: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

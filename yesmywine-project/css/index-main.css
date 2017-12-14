@@ -1,0 +1,1224 @@
+/***********首页主要内容样式*************/
+/*为了清除浮动。。。。。。。。。带来的某些板块高度为零*/
+.clear{	
+	clear: both;
+}	
+
+.body-mainer{
+	width: 1263px;
+	/*margin: 0 auto;*/
+	background: #FFFFFF;
+	position: relative;
+	padding-bottom: 40px;
+}
+/*版心*/
+.body-main{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*猜你喜欢*/
+	/*表头部分*/
+.main-like{
+	position: relative;
+	height: 412px;
+}
+.main-like .like-title{
+	margin-top: 20px;
+	padding-bottom: 2px;
+	height: 34px;
+	border-bottom: 2px solid #E54247;
+}
+.main-like .like-title h1{
+	float: left;
+	width: 306px;
+	height: 34px;
+	text-indent: -9999px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) no-repeat 0 0; 
+}
+.main-like .like-title a{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-left: 30px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/title3.jpg) scroll -130px -8px;
+}
+.main-like .like-title a:hover{
+	text-decoration: underline;
+}
+	/*猜你喜欢内容*/
+.main-like .like-content{
+
+}
+.main-like .like-left{
+	width: 299px;
+	height: 372px;
+	float: left;
+	border:  1px #E7E7E7 solid;
+	background: #EDF4F8;
+}
+.main-like .like-left h1{
+	width: 300px;
+	height: 23px;
+	margin-top: 20px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/icon2.png) center top no-repeat;
+}
+.main-like .like-left li{
+	float: left;
+	width: 125px;
+	height: 81px;
+	line-height: 81px;
+	text-align: center;
+	overflow: hidden;
+}
+.main-like .like-left ul{
+	margin: 0px 0 0 30px;
+}
+.main-like .like-left li a{
+	padding: 9px 15px 10px 50px;
+	margin-top: 36px;
+	font: normal 20px/45px "微软雅黑";
+	text-indent: -45px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/icon2.png) -209px -117px no-repeat;
+}
+.main-like .like-left li a:hover{
+	text-decoration: underline;
+}
+	/*猜你喜欢右侧商品*/
+.main-like .like-right .like-rig{
+	width: 298px;
+	height: 186px;
+	float: left;
+	background: #FFFFFF;
+	border-right: 1px solid #ebebe8;
+	border-bottom: 1px solid #ebebe8;
+}
+.main-like .like-right .like-rig img{
+	float: left;
+	height: 140px;
+	margin: 25px 4px;
+}
+.main-like .like-right .like-rig dl{
+	margin-top: 20px;
+}
+.main-like .like-right .like-rig dl dt a{
+	font: normal 12px/1.5 tahoma, arial;
+	color: #633;
+}
+.main-like .like-right .like-rig dl dt a:hover{
+	text-decoration: underline;
+}
+.main-like .like-right .like-rig dl dd{
+	font: normal 12px/1.5 tahoma, arial;
+	color: #777;
+}
+.main-like .like-right .like-rig dl .minprice{
+	margin-top: 30px;
+	color: #C53F4C;
+}
+.main-like .like-right .like-rig dl .minprice strong{
+	font: normal 20px/25px Georgia;;
+}
+/*刚刚被好评和买过的商品*/
+.main-just{
+	position: relative;
+	height: 430px;		/*数据不是很准确的     不是宽高自适应吗？？？？？？？？？？？*/
+}
+	/*刚刚表头*/
+.main-just .just-title{
+	margin-top: 20px;
+	padding-bottom: 5px;
+	height: 34px;
+}
+.main-just .just-title h1{
+	float: left;	
+	text-indent: -9999px;
+}
+.main-just .just-title .just1{
+	width: 600px;
+	height: 34px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -34px no-repeat; 
+}
+.main-just .just-title .just2{
+	width: 240px;
+	height: 34px;
+	margin-left: 18px;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -70px no-repeat; 
+}
+/*刚刚内容*/
+.main-just .just-content{
+	
+}
+	/*刚刚左侧*/
+.main-just .just-left{
+	width: 598px;
+	height: 386px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border-top: 1px solid #E54247;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	background: #ffffff;
+}
+.main-just .just-left .just-left-hot{
+	width: 60px;
+	height: 60px;
+	z-index: 9999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/hot.png) no-repeat; 
+}
+.main-just .just-left .just-left-lbt{
+	border-top: 0;
+	width: 760px;
+	height: 386px;
+	overflow: hidden;
+}
+.main-just .just-left .just-left-lbt .lbt-li{
+	width: 1800px;
+	/*margin-left: -600px;*/
+	overflow: hidden;
+}
+	/*轮播图片li内样式*/
+.main-just .just-left .lbt-li li{
+	position: relative;		/*必须定位，否则评价数量和销售数量会重合*/
+	float: left;
+	padding-right: 20px;
+} 
+.main-just .just-left .lbt-li img{
+	float: left;
+	margin: 10px 2px;
+}
+.main-just .just-left .li-price{
+	width: 70px;
+	/*height: 70px;*/	/*为啥不能设置高度？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？*/
+	z-index: 9999;
+	position: absolute;
+	bottom: 20px;
+	left: 125px;
+	color: #ffffff;
+	font: 500 20px/75px "微软雅黑";
+	text-align: center;
+	background: url(http://127.0.0.1:80/yesmywine-project/icon/price.png) no-repeat; 
+}
+
+.main-just .just-left .lbt-li h2{
+	margin: 60px 0 15px;
+	font: normal 22px/35px "微软雅黑";
+	color: #333333;
+}
+.main-just .just-left .lbt-li p{
+	width: 580px;
+	font: normal 14px/22px "微软雅黑";
+}
+.main-just .just-left .lbt-li span{
+	padding-right: 20px;
+	font: normal 14px/16px "微软雅黑";
+	color: #CD0005;
+}
+.main-just .just-left .lbt-li li .discuss{
+	position: absolute;
+	top: 320px;
+	left: 370px;
+}
+.main-just .just-left .lbt-li li .sales-count{
+	position: absolute;
+	top: 320px;
+	right: 0px;
+}
+	/*轮播tab键*/
+.main-just .just-left-lbt .lbt-tab{
+	width: 200px;
+	height: 26px;
+	position: absolute;
+	left: 250px;
+	bottom: 0;
+	z-index: 999;
+	text-align: center;
+}
+.main-just .just-left-lbt .lbt-tab li{
+	float: left;
+	width: 10px; 
+	height: 10px;
+	border-radius: 50%;
+	margin: 0 15px 0 5px;
+	background: #C9C9C9;
+	cursor: pointer;
+}
+.main-just .just-left-lbt .lbt-tab .active{
+	background: #E00005;
+}
+/*刚刚右侧*/
+.main-just .just-right{
+	width: 582px;
+	height: 386px;
+	float: right;
+	position: relative;
+	border-top: 1px solid #E54247;
+	background: #ffffff;
+}
+.main-just .just-right li{
+	float: left;
+	width: 289px;
+	border: 1px solid #d8d8d8;
+	border-top: none;
+	padding-top: 25px;
+	position: relative;
+}
+.main-just .just-right img{
+	margin: 0 auto;
+}
+.main-just .just-right h2{
+	width: 265px;
+	margin: 10px 14px 15px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: left;
+	color: #333333;
+}
+.main-just .just-right h2:hover{
+	text-decoration: underline;
+}
+.main-just .just-right p{
+	margin: 25px 14px 20px;
+	font-size: 12px; 
+	color: #333333;
+}
+.main-just .just-right p span{
+	/*width: 60px;
+	height: 18px;*/
+	padding: 3px;
+	border-radius: 5px;
+	background: #D73C3C;
+	color: #ffffff;
+	margin-right: 10px;
+}
+.main-just .just-right p a{
+	color: #D73C3C;
+	font-size: 14px;
+}
+.main-just .just-right p a em{
+	font-size: 30px;
+	color: #cd0005;
+	margin-left: 3px;
+}
+.main-just .just-right dl{
+	text-align: center;
+	padding: 10px 0 11px;
+	background: #F4F4F0;
+	font-size: 16px;
+	line-height: 25px;
+	color: #666666;
+}
+/* .main-just .just-right p span a{
+	width: 386px;
+	height: 105px;
+	border: 1px solid #f4ab6d;
+	position: absolute;
+	top: 390px;
+	left: 0;
+	z-index: 9999;
+} */
+/*.main-just .just-right p span a.active{
+	display: none;
+}*/
+/*趣味新发现*/
+.main-find{
+	position: relative;
+	/*height: 412px;*/
+}
+	/*趣味新发现表头*/
+.main-find .find-title{
+	margin-top: 20px;
+	padding-bottom: 5px;
+	height: 34px;
+}
+.main-find .find-title h1{
+	width: 1200px;
+	height: 34px;
+	text-indent: -9999px;
+	margin: 3px 0;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -105px no-repeat; 
+}
+/*趣味新发现内容*/
+.main-find .find-content{
+	margin-top:;
+	border-top: 1px solid #E54247;
+	background: #FFFFFF;
+}
+/*为了清除浮动*/
+.main-find .find-content .clear{	/*********************还真见效果了！！！！！！！！！**********************/
+	clear: both;
+}
+
+	/*趣味新发现左侧*/
+.main-find .find-left{
+	width: 328px;
+	height: 650px;
+	clear: both;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	overflow: hidden;
+	margin-right: 10px;
+	float: left;
+	background: #FFFFFF;	/*应该只设置父级元素的就可以了，父级元素暂时没有高度*/
+
+}
+.main-find .find-left h1{
+	height: 60px;
+	color: #ffffff;
+	font: normal 24px/60px "微软雅黑";
+	text-indent: 50px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -302px no-repeat; 
+}
+.main-find .find-left img{
+	float: left;
+	margin-top: 6px;
+	padding-bottom: 10px;
+}
+.main-find .find-left dl{
+	width: 210px;
+	padding-left: 110px;
+	padding-top: 15px;
+}
+.main-find .find-left dl a{
+	font: normal 16px/25px "宋体";
+}
+.main-find .find-left dd{
+	font: normal 14px/20px "微软雅黑";
+	color: #666666;
+}
+.main-find .find-left p{
+	font-weight: 600;
+	margin: 40px 0 10px;
+	color: #b51d1a;
+}
+.main-find .find-left strong{
+	font-weight: 500;
+	font-size:  36px;
+	font-family:  Arial;
+}
+.main-find .find-left h3{
+	font-size: 14px;
+	color: #999;
+}
+.main-find .find-left a:hover{
+	text-decoration: underline;
+}
+	/*第一块*/
+.main-find .find-left .top-ten-first{
+	width: 330px;
+	height: 206px;
+}
+	/*第二块*/
+.main-find .find-left .top-ten-second{
+	width: 330px;
+	height: 192px;
+}
+.main-find .find-left .top-ten-more{
+	width: 20px;
+	height: 21px;
+	margin: 0 155px;
+	/*display: inline-block;*/	/*************这个是什么意思***原网删除会消失***********************/
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) -32px -280px no-repeat; 
+}
+.main-find .find-left .top-ten-tast{
+	font: normal 24px/48px "微软雅黑";
+	color: #333;
+	text-indent: 35px;
+	width: 100%;
+	height: 47px;
+	background: #F4F4F4;
+	border-top: 1px solid #dcdcdc; 
+}
+	/*左侧底部*/
+.main-find .find-left .top-ten-down{
+	border-top: 1px dashed #dcdcdc;
+	width: 320px;
+	margin: 0 auto;
+}
+.main-find .find-left .top-ten-down li{
+	height: 22px;
+	margin-top: 5px;
+	font: normal 15px/22px "微软雅黑";
+	text-indent: 10px;
+	overflow: hidden;
+	color: #666;
+}
+
+	/*趣味新发现中间*/
+.main-find .find-center{
+	width: 528px;
+	height: 650px;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	overflow: hidden;
+	margin-right: 10px;
+	float: left;
+}
+.main-find .find-center h1{
+	height: 60px;
+	color: #ffffff;
+	font: normal 24px/60px "微软雅黑";
+	text-indent: 20px;
+	background:  #a7e1f6;
+}
+.main-find .find-center img{
+	float: left;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 100px;
+}
+.main-find .find-center dl{
+	width: 245px;
+	padding-left: 250px;
+	padding-top: 15px;
+}
+.main-find .find-center dl a{
+	font: normal 16px/25px "宋体";
+}
+.main-find .find-center dd{
+	font: normal 14px/20px "微软雅黑";
+	color: #666666;
+}
+.main-find .find-center h2{
+	font-weight: 600;
+	margin: 20px 0 10px;
+	color: #b51d1a;
+}
+.main-find .find-center strong{
+	font-weight: 500;
+	font-size:  36px;
+	font-family:  Arial;
+}
+.main-find .find-center p{
+	width: 245px;
+	height: 145px;
+	line-height: 24px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #999;
+}
+.main-find .find-center a:hover{
+	text-decoration: underline;
+}
+.main-find .find-center .name-model{
+	width: 120px;
+	height: 42px;
+	font-size:14px;
+	line-height: 46px; 
+	color: #fe9b1a;
+	position: absolute;
+	top: 55px;
+	left: 10px;
+	text-indent: 5px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/wine-label-2.png) 0px 0px no-repeat; 
+}
+.main-find .find-center .introduce{
+	width: 120px;
+	height: 42px;
+	font-size:14px;
+	line-height: 46px; 
+	color: #fe9b1a;
+	position: absolute;
+	top: 115px;
+	left: 10px;
+	text-indent: 5px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/wine-label-2.png) 0px 0px no-repeat; 
+}
+
+	/*发现好货上面*/
+.main-find .find-center .good-stuff-top{
+	position: relative;
+	height: 296px;
+}
+
+	/*发现好货下面*/
+.main-find .find-center .good-stuff-down{
+	border-top: 1px dashed #ccc;
+	position: relative;
+}
+
+	/*趣味新发现右侧*/
+.main-find .find-right{
+	width: 318px;
+	height: 650px;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	overflow: hidden;
+	float: left;
+}
+.main-find .find-right h1{
+	height: 60px;
+	color: #ffffff;
+	font: normal 24px/60px "微软雅黑";
+	text-indent: 20px;
+	background: #e9aeba;
+}
+.main-find .find-right img{
+	float: left;
+}
+.main-find .find-right .star-recom{
+
+}
+.main-find .find-right .buyer{
+	width: 268px;
+	height: 70px;
+	padding: 10px 15px;
+	margin: 0 10px;
+	border-bottom: 1px dashed #bcbcbc;
+} 
+.main-find .find-right .buyer img{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	border: 2px solid #a0a0a0;
+	/*margin: 0 5px;*/
+}
+.main-find .find-right .buyer a{
+	width: 275px;
+	height: 75px;
+	margin: 10px auto;
+}
+.main-find .find-right .buyer span{
+	/*width: 180px;*/
+	height: 25px;
+	margin: 5px 50px 0 20px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.main-find .find-right dd img{
+	height: 125px;
+	margin: 10px auto 4px;
+}
+.main-find .find-right dl p{
+	font: normal 16px/22px "宋体";
+	padding: 20px 0 0 90px;
+	width: 210px;
+	padding-right: 20px;
+
+}
+.main-find .find-right dl span{
+	font: normal 14px/18px "微软雅黑";
+	color: #666666;
+	padding-left: 15px;
+}
+.main-find .find-right h2{
+	font-weight: 600;
+	margin: 0px 0 10px;
+	color: #b51d1a;
+}
+.main-find .find-right h2 span{
+	color: #b51d1a;
+}
+.main-find .find-right strong{
+	font-weight: 500;
+	font-size:  36px;
+	font-family:  Arial;
+}
+.main-find .find-right .star-recom div{
+	width: 58px;
+	height: 24px;
+	position: absolute;
+	bottom: 8px;
+	right: 25px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/icon2.png) -197px -256px no-repeat; 
+}
+.main-find .find-right .goods-first{
+	position: relative;
+}
+.main-find .find-right .goods-second{
+	position: relative;
+	padding-bottom: 5px;
+}
+.main-find .find-right .recom-reason{
+	font: normal 20px/48px "微软雅黑";
+	color: #333;
+	background: #f4f4f4;
+	border-top: 1px solid #dcdcdc;
+	text-indent: 20px;
+	margin-top: 5px;
+}
+.main-find .find-right .recom-content{
+	width: 305px;
+	height: 300px;
+	margin: 0 auto;
+	border-top: 1px dashed #bcbcbc;
+	padding-top: 8px;
+	height: 150px;
+	color: #666;
+	font: normal 14px/22px "微软雅黑";
+	overflow: clip;
+	word-wrap: break-word;
+}
+.main-find .find-right .recom-content a:hover{
+	text-decoration: underline;
+}
+
+/*专业特色专题*/
+.main-special{
+	position: relative;
+	/*height: 412px;*/
+}
+	/*专业特色表头*/
+.main-special .special-title{
+	margin-top: 20px;
+	padding-bottom: 5px;
+	height: 34px;
+}
+.main-special .special-title h1{
+	width: 1200px;
+	height: 34px;
+	text-indent: -9999px;
+	margin: 3px 0;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -171px no-repeat; 
+}
+/*专业特色内容*/
+.main-special .special-content{
+	margin-top:;
+	border-top: 1px solid #E54247;
+	background: #FFFFFF;
+}
+
+.main-special .special-left{
+	float: left;
+}
+.main-special .special-right li{
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+/*///////////////////////////////////////////////*/
+/*品牌汇*/
+.main-brand{
+	position: relative;
+	/*height: 412px;*/
+}
+	/*品牌汇表头*/
+.main-brand .brand-title{
+	margin-top: 20px;
+	padding-bottom: 5px;
+	height: 34px;
+}
+.main-brand .brand-title h1{
+	width: 1200px;
+	height: 34px;
+	text-indent: -9999px;
+	margin: 3px 0;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -207px no-repeat; 
+}
+/*品牌汇内容*/
+.main-brand .brand-content{
+	margin-top:;
+	border-top: 1px solid #E54247;
+	background: #FFFFFF;
+}
+	/*上面*/
+.main-brand .brand-top{
+	float: left;
+}
+.main-brand .brand-top li{
+	float: left;
+	width: 150px;
+	overflow: hidden;
+}
+.main-brand .brand-top .active{
+	width: 450px;
+}
+	/*下面*/
+.main-brand .brand-down{
+	float: left;
+	border-left: 1px solid #ebebe8;
+	position: relative;
+	overflow: hidden;
+	/*border-top: none;*/
+}
+.main-brand .brand-down li{
+	float: left;
+	width: 218px;
+	padding: 10px;	/***************这是个问题，图片右侧竟然占领内充距离而不是隐藏*********************/
+	border-right: 1px solid #ebebe8;
+	border-bottom: 1px solid #ebebe8;	
+	overflow: hidden;
+	position: relative;
+}
+ .main-brand .brand-down img{
+	position: relative;
+} 
+/*酒友品鉴*/
+.main-tast{
+	position: relative;
+	/*height: 412px;*/
+}
+	/*酒友品鉴表头*/
+.main-tast .tast-title{
+	margin-top: 20px;
+	padding-bottom: 5px;
+	height: 34px;
+}
+.main-tast .tast-title .tast-title-left{
+	width: 950px;
+	float: left;
+	margin-right: 10px;
+	background: #F8F8F5;
+	border-bottom: 1px solid #ebebe8;
+}
+.main-tast .tast-title .tast-title-left h1{
+	width: 850px;
+	height: 34px;
+	text-indent: -9999px;
+	margin: 3px 0;
+	float: left;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -244px no-repeat; 
+}
+.main-tast .tast-page{
+	float: right;
+	position: relative;
+	top: 15px;
+	right: 10px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.main-tast .tast-page i{
+	font-size: 16px;
+	font-weight: 600;
+	height: 30px;
+	width: 20px;
+	cursor: pointer;
+}
+.main-tast .tast-title-right{
+	/*width: 240px;*/
+	float: left;
+	height: 40px;
+	background: #F8F8F5;
+	border-bottom: 1px solid #ebebe8;
+}
+.main-tast .tast-title-right h2{
+	width: 240px;
+	height: 30px;
+	margin-top: 10px;
+	text-indent: -2115px;
+	line-height: 40px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title.png) 0 -238px no-repeat; 
+}
+
+	/*酒友品鉴内容*/
+.main-tast .tast-content{
+	position: relative;
+}
+	/*用户信息滚动项*/
+.main-tast .tast-content .tast-left{
+	position: relative;
+	width: 950px;
+	height: 210px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+.main-tast .tast-content .tast-list{
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	width: 1900px;		/*按理说这个宽度不应该有啊*/
+	/*height: 210px;*/
+	/*left: -100px;*/
+}
+.main-tast .tast-list li{
+	position: relative;
+	float: left;
+	width: 316px;
+	height: 200px;
+	padding: 5px 0;
+}
+.main-tast .tast-list li+li{
+	border-left: 1px solid #EBEBE8;
+}
+.main-tast .tast-list a img{
+	float:left;
+	margin: 10px;
+}
+.main-tast .tast-list dl{
+	margin-left: 130px;
+	margin-bottom: 5px;
+}
+.main-tast .tast-list dt a{
+	font: normal 12px/16px "宋体";
+	color: #5C483D;
+}
+.main-tast .tast-list a:hover{
+	text-decoration: underline;
+}
+.main-tast .tast-list dd span{
+	color: #D3161B;
+}
+.main-tast .tast-list dd span strong{
+	font: normal 20px/20px "Georgia";
+}
+.main-tast .tast-list .tast-user{
+	float: right;
+	width: 180px;
+	height: 66px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.main-tast .tast-list .tast-user img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	clear: both;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.main-tast .tast-list .tast-name{
+	float: left;
+	width: 50px;
+	height: 70px;
+	text-align: center;
+}
+.main-tast .tast-list .tast-user h5{
+	float: left;
+	width: 50px;
+	overflow: hidden;
+	font-size: 8px;
+	color: #999999;
+}
+.main-tast .tast-list .tast-user h3{
+	float: left;
+	width: 65px;
+	height: 20px;
+	background: #C19E64;
+	border-radius: 3px;
+	color: #FFFFF4;
+	/*margin-left: 185px;*/
+}
+.main-tast .tast-list .tast-talk{
+	float: left;
+	margin-left: 10px;
+	width: 115px;
+}
+.main-tast .tast-list .tast-user h3{
+	margin-right: 50px;
+	text-indent: 3px;
+}
+.main-tast .tast-list .tast-user h3 strong{
+	padding: 0 5px;
+	background: #B58D53;
+	font-weight: 600;	
+}
+.main-tast .tast-list .tast-user p{
+	line-height: 16px;
+}
+
+/*进口葡萄酒*/
+.main-grape{
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #D2D2CE;
+}
+/*葡萄酒表头*/
+.main-grape .grape-title{
+	margin-top: 10px;
+	padding-bottom: 5px;
+	height: 34px;
+	border-bottom: 2px solid #C53F4C;
+}
+.main-grape .grape-title h1{
+	width: 600px;
+	height: 34px;
+	float: left;
+	text-indent: -9999px;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/title1.png) 0 -384px no-repeat; 
+}
+.main-grape .grape-title p{
+	height: 34px;
+	line-height: 40px;
+}
+.main-grape .grape-title a:hover{
+	text-decoration: underline;
+}
+.main-grape .grape-title p a{
+	margin: 2px 15px;
+	color: #5A463D;
+}
+.main-grape .grape-title span{
+	background: #73584A;
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/sprite .png) -211px -40px no-repeat; 
+	padding:2px;
+
+}
+.main-grape .grape-title span a{	
+	margin: 0;
+	width: 80px;
+	height: 20px;
+	color: #ffffff;
+	/*padding: 3px;	*/
+}
+
+/*葡萄酒内容*/
+.main-grape .grape-content{
+	position: relative;
+}
+.main-grape .grape-content li{
+	float: left;
+}
+.main-grape .grape-left{
+	float: left;
+}
+.main-grape .grape-top-left{
+	width: 200px;
+	height: 250px;
+	float: left;
+}
+.main-grape .grape-top-left li{
+	border: 1px solid #D4C5B8;
+	padding: 4px 0;
+	width: 98px;
+	height: 40px;
+	background: #d6c9bc;
+}
+.main-grape .grape-top-left img{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+}
+/*中间*/
+.main-grape .grape-top-center{
+	position: relative;
+	width: 760px;
+	overflow: hidden;
+	float: left;
+}
+.main-grape .grape-top-center .grape-lbt{
+	width: 1520px;
+	overflow: hidden;
+}
+/*.main-grape .grape-top-center .grape-tabs{
+	position: absolute;
+	bottom: 10px;
+	left: 350px;
+}*/
+.main-grape .grape-top-center .grape-tabs li{
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background: #ffffff;
+}
+.main-grape .grape-top-center .grape-tabs .active{
+	background: #7E0001;
+}
+
+/*中间性价比*/
+.main-grape .grape-center {
+	position: relative;
+	width: 940px;
+	margin: 5px 5px 0;
+}
+.main-grape .grape-center-title{
+	/*border-bottom: 1px solid #D2D2CE;*/
+	width: 940px;
+	height: 30px;
+}
+.main-grape .grape-center-title h3{
+	font: 600 14px/30px "微软雅黑";
+	color: #715B4A;
+	float: left;
+	/*border-bottom: 1px solid #D2D2CE;*/
+}
+.main-grape .grape-center-title p{
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 3px;
+	line-height: 18px;
+	background: #F4F4F0;
+	border-radius: 10px;
+}
+.main-grape a:hover{
+	text-decoration: underline;
+}
+/*性价比之选*/
+.main-grape .grape-best{
+	float: left;
+	width: 940px;
+	padding: 5px;
+	position: relative;
+	border-top: 1px solid #D2D2CE;
+}
+.main-grape .grape-best li{
+	float: left;
+	padding: 3px;
+	border: 1px solid #ffffff;
+}
+.main-grape .grape-best li:hover{
+	border: 1px solid #E7E7E2;
+	box-shadow: 0px 0px 6px;
+}
+.main-grape .grape-best img{
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.main-grape .grape-best dl{
+	width: 160px;
+	height: 55px;
+	padding: 10px;
+	background: F4F4F0;
+	border-bottom: 1px solid #E7E7E2;
+}
+.main-grape .grape-best dl a{
+	font-size: 14px;
+	color: 5B473D;
+}
+.main-grape .grape-best dd{
+	color: #C53F4C;
+	margin-top: 15px;
+}
+.main-grape .grape-best strong{
+	font: normal 20px/25px Georgia;;
+}
+.main-grape .grape-best p{
+	width: 160px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	color: #999999;
+}
+.main-grape .grape-best p i{
+	float: right;
+}
+/*新品上市*/
+.main-grape .grape-new{
+	float: left;
+	width: 940px;
+	padding: 5px;
+	position: relative;
+	border-top: 1px solid #D2D2CE;
+}
+.main-grape .grape-new li{
+	float: left;
+	padding: 3px;
+	border: 1px solid #ffffff;
+}
+.main-grape .grape-new li:hover{
+	border: 1px solid #E7E7E2;
+	box-shadow: 0px 0px 6px;
+}
+.main-grape .grape-new img{
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.main-grape .grape-new dl{
+	width: 160px;
+	height: 55px;
+	padding: 10px;
+	background: #F4F4F0;
+	border-bottom: 1px solid #E7E7E2;
+}
+.main-grape .grape-new dl a{
+	font-size: 14px;
+	color: #5B473D;
+}
+.main-grape .grape-new dd{
+	color: #C53F4C;
+	margin-top: 15px;
+}
+.main-grape .grape-new strong{
+	font: normal 20px/25px Georgia;;
+}
+.main-grape .grape-new p{
+	width: 160px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	color: #999999;
+}
+.main-grape .grape-new p i{
+	float: right;
+}
+/*右侧*/
+.main-grape .grape-right{
+	position: relative;
+	width: 235px;
+	float: right;
+	overflow: hidden;
+	margin-left: 5px;
+	background: #F4F4F0;
+}
+.main-grape .grape-right-top{
+	position: relative;	
+	margin-bottom: 30px;
+}
+.main-grape .grape-right-list{
+	position: relative;
+	margin-top: 30px;
+}
+.main-grape .grape-right-list li{
+	position: relative;
+	border-top: 1px solid #DDDDDD;
+	padding: 10px 5px;
+}
+.main-grape .grape-right-list .back-pic{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	width: 24px;
+	height: 20px;
+	
+	/*background: #C53F4C;*/
+}
+.main-grape .grape-right-list img{
+	float: left;
+	padding: 6px 10px;
+}
+.main-grape .grape-right-list a{
+	font-size: 14px;
+	color: #5B473D;
+}
+.main-grape .grape-right-list dd{
+	margin-top: 10px;
+	margin-left: 80px;
+	width: 130px;
+}
+.main-grape .grape-right-list p{
+	color: #C53F4C;
+	margin-top: 15px;
+	margin-left: 80px;
+}
+.main-grape .grape-right-list strong{
+	font: normal 20px/25px Georgia;;
+}
+
+.main-grape .grape-right-list .item{
+	/*display: none;*/
+}
+.main-grape .grape-right-list .item.off .back-pic{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/sprite.png) -85px -70px; 
+	text-align: center;
+	line-height: 20px;
+	font-weight: 600;
+	color: #5B473B;
+}
+.main-grape .grape-right-list .item.on{
+	display: block;
+}
+.main-grape .grape-right-list .item.on .back-pic{
+	background:  url(http://127.0.0.1:80/yesmywine-project/icon/sprite.png) -60px -70px; 
+	text-align: center;
+	line-height: 20px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.main-grape .grape-right-list h3{
+	font-size: 14px;
+	color: #5B473D;
+	width: 180px;
+	padding-left: 30px;
+}
+
+
+
+
+
